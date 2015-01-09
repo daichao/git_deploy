@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DialogDemo2</string>
+    <string name="btn">请选择爱好（列表）</string>
+    <string name="btn2">请选择爱好（单选）</string>
+    <string name="btn3">请选择爱好（多选）</string>
+</resources>

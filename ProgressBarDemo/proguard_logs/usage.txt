@@ -1,0 +1,9 @@
+com.example.ProgressBarDemo.BuildConfig
+com.example.ProgressBarDemo.MyActivity:
+    private android.widget.ProgressBar pb1
+com.example.ProgressBarDemo.R
+com.example.ProgressBarDemo.R$attr
+com.example.ProgressBarDemo.R$drawable
+com.example.ProgressBarDemo.R$id
+com.example.ProgressBarDemo.R$layout
+com.example.ProgressBarDemo.R$string

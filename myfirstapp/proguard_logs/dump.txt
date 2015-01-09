@@ -1,0 +1,562 @@
+_____________________________________________________________________
++ Program class: com/daichao/myapp/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.daichao.myapp.MyActivity extends android.app.Activity
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 85):
+  + Integer [2130903040]
+  + Integer [2131034112]
+  + String [MainActivity]
+  + String [onCreate]
+  + String [onDestroy]
+  + String [onPause]
+  + String [onRestart]
+  + String [onResume]
+  + String [onStart]
+  + String [onStop]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/util/Log]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/Button]
+  + Class [com/daichao/myapp/MyActivity]
+  + Class [com/daichao/myapp/OtherActivity]
+  + Fieldref [com/daichao/myapp/MyActivity.a Landroid/widget/Button;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/app/Activity.onPause ()V]
+  + Methodref [android/app/Activity.onRestart ()V]
+  + Methodref [android/app/Activity.onResume ()V]
+  + Methodref [android/app/Activity.onStart ()V]
+  + Methodref [android/app/Activity.onStop ()V]
+  + Methodref [android/content/Intent.<init> ()V]
+  + Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/daichao/myapp/MyActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/daichao/myapp/MyActivity.setContentView (I)V]
+  + Methodref [com/daichao/myapp/MyActivity.startActivity (Landroid/content/Intent;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/widget/Button;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [onPause ()V]
+  + NameAndType [onRestart ()V]
+  + NameAndType [onResume ()V]
+  + NameAndType [onStart ()V]
+  + NameAndType [onStop ()V]
+  + NameAndType [setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [v (Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [MainActivity]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/Button]
+  + Utf8 [com/daichao/myapp/MyActivity]
+  + Utf8 [com/daichao/myapp/OtherActivity]
+  + Utf8 [findViewById]
+  + Utf8 [onClick]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [onPause]
+  + Utf8 [onRestart]
+  + Utf8 [onResume]
+  + Utf8 [onStart]
+  + Utf8 [onStop]
+  + Utf8 [setClass]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [startActivity]
+  + Utf8 [v]
+
+Fields (count = 1):
+  + Field:        a Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button a
+
+Methods (count = 9):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 41, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #32
+        + Methodref [com/daichao/myapp/MyActivity.setContentView (I)V]
+      [11] ldc #3
+        + String [MainActivity]
+      [13] ldc #4
+        + String [onCreate]
+      [15] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [18] pop
+      [19] aload_0 v0
+      [20] aload_0 v0
+      [21] ldc #2
+        + Integer [2131034112]
+      [23] invokevirtual #31
+        + Methodref [com/daichao/myapp/MyActivity.findViewById (I)Landroid/view/View;]
+      [26] checkcast #15
+        + Class [android/widget/Button]
+      [29] putfield #18
+        + Fieldref [com/daichao/myapp/MyActivity.a Landroid/widget/Button;]
+      [32] aload_0 v0
+      [33] getfield #18
+        + Fieldref [com/daichao/myapp/MyActivity.a Landroid/widget/Button;]
+      [36] aload_0 v0
+      [37] invokevirtual #30
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [40] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 30, locals = 3, stack = 3):
+      [0] aload_1 v1
+      [1] aload_0 v0
+      [2] getfield #18
+        + Fieldref [com/daichao/myapp/MyActivity.a Landroid/widget/Button;]
+      [5] ifacmpne +24 (target=29)
+      [8] new #12
+        + Class [android/content/Intent]
+      [11] dup
+      [12] invokespecial #27
+        + Methodref [android/content/Intent.<init> ()V]
+      [15] astore_2 v2
+      [16] aload_2 v2
+      [17] aload_0 v0
+      [18] ldc #17
+        + Class [com/daichao/myapp/OtherActivity]
+      [20] invokevirtual #28
+        + Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+      [23] pop
+      [24] aload_0 v0
+      [25] aload_2 v2
+      [26] invokevirtual #33
+        + Methodref [com/daichao/myapp/MyActivity.startActivity (Landroid/content/Intent;)V]
+      [29] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [29] Var: ..., Stack: (empty)
+  + Method:       onDestroy()V
+    Access flags: 0x4
+      = protected void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #5
+        + String [onDestroy]
+      [8] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPause()V
+    Access flags: 0x4
+      = protected void onPause()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        + Methodref [android/app/Activity.onPause ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #6
+        + String [onPause]
+      [8] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onRestart()V
+    Access flags: 0x4
+      = protected void onRestart()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #23
+        + Methodref [android/app/Activity.onRestart ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #7
+        + String [onRestart]
+      [8] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onResume()V
+    Access flags: 0x4
+      = protected void onResume()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #24
+        + Methodref [android/app/Activity.onResume ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #8
+        + String [onResume]
+      [8] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStart()V
+    Access flags: 0x4
+      = protected void onStart()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #25
+        + Methodref [android/app/Activity.onStart ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #9
+        + String [onStart]
+      [8] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStop()V
+    Access flags: 0x4
+      = protected void onStop()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #26
+        + Methodref [android/app/Activity.onStop ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #10
+        + String [onStop]
+      [8] invokestatic #29
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/daichao/myapp/OtherActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.daichao.myapp.OtherActivity extends android.app.Activity
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 74):
+  + Integer [2130903041]
+  + Integer [2131034113]
+  + String [MainActivity]
+  + String [onCreate]
+  + String [onDestroy]
+  + String [onPause]
+  + String [onRestart]
+  + String [onResume]
+  + String [onStop]
+  + Class [android/app/Activity]
+  + Class [android/util/Log]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/Button]
+  + Class [com/daichao/myapp/OtherActivity]
+  + Fieldref [com/daichao/myapp/OtherActivity.a Landroid/widget/Button;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/app/Activity.onPause ()V]
+  + Methodref [android/app/Activity.onRestart ()V]
+  + Methodref [android/app/Activity.onResume ()V]
+  + Methodref [android/app/Activity.onStart ()V]
+  + Methodref [android/app/Activity.onStop ()V]
+  + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/daichao/myapp/OtherActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/daichao/myapp/OtherActivity.finish ()V]
+  + Methodref [com/daichao/myapp/OtherActivity.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/widget/Button;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [onPause ()V]
+  + NameAndType [onRestart ()V]
+  + NameAndType [onResume ()V]
+  + NameAndType [onStart ()V]
+  + NameAndType [onStop ()V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [v (Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [MainActivity]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/Button]
+  + Utf8 [com/daichao/myapp/OtherActivity]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [onClick]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [onPause]
+  + Utf8 [onRestart]
+  + Utf8 [onResume]
+  + Utf8 [onStart]
+  + Utf8 [onStop]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [v]
+
+Fields (count = 1):
+  + Field:        a Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button a
+
+Methods (count = 9):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public OtherActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #16
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStart()V
+    Access flags: 0x4
+      = protected void onStart()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        + Methodref [android/app/Activity.onStart ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 41, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #17
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903041]
+      [8] invokevirtual #28
+        + Methodref [com/daichao/myapp/OtherActivity.setContentView (I)V]
+      [11] ldc #3
+        + String [MainActivity]
+      [13] ldc #4
+        + String [onCreate]
+      [15] invokestatic #24
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [18] pop
+      [19] aload_0 v0
+      [20] aload_0 v0
+      [21] ldc #2
+        + Integer [2131034113]
+      [23] invokevirtual #26
+        + Methodref [com/daichao/myapp/OtherActivity.findViewById (I)Landroid/view/View;]
+      [26] checkcast #13
+        + Class [android/widget/Button]
+      [29] putfield #15
+        + Fieldref [com/daichao/myapp/OtherActivity.a Landroid/widget/Button;]
+      [32] aload_0 v0
+      [33] getfield #15
+        + Fieldref [com/daichao/myapp/OtherActivity.a Landroid/widget/Button;]
+      [36] aload_0 v0
+      [37] invokevirtual #25
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [40] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] aload_0 v0
+      [2] getfield #15
+        + Fieldref [com/daichao/myapp/OtherActivity.a Landroid/widget/Button;]
+      [5] ifacmpne +7 (target=12)
+      [8] aload_0 v0
+      [9] invokevirtual #27
+        + Methodref [com/daichao/myapp/OtherActivity.finish ()V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [12] Var: ..., Stack: (empty)
+  + Method:       onRestart()V
+    Access flags: 0x4
+      = protected void onRestart()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #20
+        + Methodref [android/app/Activity.onRestart ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #7
+        + String [onRestart]
+      [8] invokestatic #24
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onResume()V
+    Access flags: 0x4
+      = protected void onResume()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [android/app/Activity.onResume ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #8
+        + String [onResume]
+      [8] invokestatic #24
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPause()V
+    Access flags: 0x4
+      = protected void onPause()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/app/Activity.onPause ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #6
+        + String [onPause]
+      [8] invokestatic #24
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStop()V
+    Access flags: 0x4
+      = protected void onStop()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #23
+        + Methodref [android/app/Activity.onStop ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #9
+        + String [onStop]
+      [8] invokestatic #24
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDestroy()V
+    Access flags: 0x4
+      = protected void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [4] ldc #3
+        + String [MainActivity]
+      [6] ldc #5
+        + String [onDestroy]
+      [8] invokestatic #24
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

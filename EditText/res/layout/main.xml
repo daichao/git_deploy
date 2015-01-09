@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <EditText android:id="@+id/myet1"
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/et1"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            />
+    <EditText android:id="@+id/myet2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/et2"
+              android:inputType="number"
+            />
+    <EditText android:id="@+id/myet3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/et3"
+              android:inputType="text"
+            />
+    <EditText android:id="@+id/myet4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/et4"
+              android:inputType="textPassword"
+            />
+</LinearLayout>
+

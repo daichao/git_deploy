@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="sex">您的性别是？</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+</resources>

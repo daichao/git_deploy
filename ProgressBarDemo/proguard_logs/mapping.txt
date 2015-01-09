@@ -1,0 +1,20 @@
+com.example.ProgressBarDemo.MyActivity -> com.example.ProgressBarDemo.MyActivity:
+    android.widget.Button btn -> c
+    android.widget.ProgressBar pb2 -> d
+    int max -> e
+    int currentProgress -> a
+    android.os.Handler handler -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    int loadData() -> a
+    android.widget.ProgressBar access$000(com.example.ProgressBarDemo.MyActivity) -> a
+    int access$100(com.example.ProgressBarDemo.MyActivity) -> b
+    int access$200(com.example.ProgressBarDemo.MyActivity) -> c
+com.example.ProgressBarDemo.MyActivity$1 -> com.example.ProgressBarDemo.a:
+    com.example.ProgressBarDemo.MyActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.example.ProgressBarDemo.MyActivity$2 -> com.example.ProgressBarDemo.b:
+    com.example.ProgressBarDemo.MyActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.ProgressBarDemo.MyActivity$2$1 -> com.example.ProgressBarDemo.c:
+    com.example.ProgressBarDemo.MyActivity$2 this$1 -> a
+    void run() -> run

@@ -1,0 +1,7 @@
+com.daichao.myapp.BuildConfig
+com.daichao.myapp.R
+com.daichao.myapp.R$attr
+com.daichao.myapp.R$drawable
+com.daichao.myapp.R$id
+com.daichao.myapp.R$layout
+com.daichao.myapp.R$string

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenuDemo</string>
+    <string name="item01">发送短信</string>
+    <string name="item02">发送彩信</string>
+    <string name="item03">查看日记</string>
+    <string name="item04">编辑日记</string>
+    <string name="item05">删除日记</string>
+
+    <string name="img">一只猫</string>
+
+</resources>

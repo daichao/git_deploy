@@ -1,0 +1,20 @@
+com.daichao.myapp.MyActivity -> com.daichao.myapp.MyActivity:
+    android.widget.Button btn -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void onDestroy() -> onDestroy
+    void onPause() -> onPause
+    void onRestart() -> onRestart
+    void onResume() -> onResume
+    void onStart() -> onStart
+    void onStop() -> onStop
+com.daichao.myapp.OtherActivity -> com.daichao.myapp.OtherActivity:
+    android.widget.Button btn -> a
+    void onStart() -> onStart
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void onRestart() -> onRestart
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy

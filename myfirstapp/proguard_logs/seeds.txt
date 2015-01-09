@@ -1,0 +1,17 @@
+com.daichao.myapp.MyActivity
+com.daichao.myapp.MyActivity: MyActivity()
+com.daichao.myapp.MyActivity: void onClick(android.view.View)
+com.daichao.myapp.OtherActivity
+com.daichao.myapp.OtherActivity: OtherActivity()
+com.daichao.myapp.OtherActivity: void onClick(android.view.View)
+com.daichao.myapp.R$drawable: int ic_launcher
+com.daichao.myapp.R$id: int Main_btn
+com.daichao.myapp.R$id: int Other_btn
+com.daichao.myapp.R$layout: int main
+com.daichao.myapp.R$layout: int other
+com.daichao.myapp.R$string: int OtherActivity_BtnClose
+com.daichao.myapp.R$string: int OtherActivity_app_name
+com.daichao.myapp.R$string: int OtherActiviy_hello
+com.daichao.myapp.R$string: int app_name
+com.daichao.myapp.R$string: int btn_Open
+com.daichao.myapp.R$string: int hello

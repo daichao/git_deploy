@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChronometerDemo</string>
+    <string name="start">开始计时</string>
+    <string name="stop">停止计时</string>
+</resources>

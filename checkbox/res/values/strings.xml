@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">checkbox</string>
+    <string name="interest">兴趣</string>
+    <string name="piano">钢琴</string>
+    <string name="computer">电脑</string>
+    <string name="painting">绘画</string>
+</resources>

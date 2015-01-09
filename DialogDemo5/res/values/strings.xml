@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DialogDemo5</string>
+    <string name="pic">这是一条狗</string>
+    <string name="btn">关闭</string>
+    <string name="popBtn">弹出一个窗体</string>
+</resources>

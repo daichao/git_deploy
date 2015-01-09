@@ -1,0 +1,645 @@
+_____________________________________________________________________
++ Program class: com/example/ProgressBarDemo/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.ProgressBarDemo.MyActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 79):
+  + Integer [2130903040]
+  + Integer [2131034113]
+  + Integer [2131034114]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [android/widget/ProgressBar]
+  + Class [com/example/ProgressBarDemo/MyActivity]
+  + Class [com/example/ProgressBarDemo/a]
+  + Class [com/example/ProgressBarDemo/b]
+  + Class [java/lang/InterruptedException]
+  + Class [java/lang/Thread]
+  + Long [200]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.c Landroid/widget/Button;]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.d Landroid/widget/ProgressBar;]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.e I]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/example/ProgressBarDemo/MyActivity.a ()I]
+  + Methodref [com/example/ProgressBarDemo/MyActivity.setContentView (I)V]
+  + Methodref [com/example/ProgressBarDemo/a.<init> (Lcom/example/ProgressBarDemo/MyActivity;)V]
+  + Methodref [com/example/ProgressBarDemo/b.<init> (Lcom/example/ProgressBarDemo/MyActivity;)V]
+  + Methodref [java/lang/InterruptedException.printStackTrace ()V]
+  + Methodref [java/lang/Thread.sleep (J)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/example/ProgressBarDemo/MyActivity;)V]
+  + NameAndType [a ()I]
+  + NameAndType [a I]
+  + NameAndType [b Landroid/os/Handler;]
+  + NameAndType [c Landroid/widget/Button;]
+  + NameAndType [d Landroid/widget/ProgressBar;]
+  + NameAndType [e I]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [sleep (J)V]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(J)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)I]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/os/Handler;]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [Landroid/widget/ProgressBar;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/ProgressBar]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/ProgressBarDemo/MyActivity]
+  + Utf8 [com/example/ProgressBarDemo/a]
+  + Utf8 [com/example/ProgressBarDemo/b]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [findViewById]
+  + Utf8 [java/lang/InterruptedException]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [onCreate]
+  + Utf8 [printStackTrace]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [sleep]
+
+Fields (count = 5):
+  + Field:        c Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button c
+  + Field:        d Landroid/widget/ProgressBar;
+    Access flags: 0x2
+      = private android.widget.ProgressBar d
+  + Field:        e I
+    Access flags: 0x2
+      = private int e
+  + Field:        a I
+    Access flags: 0x0
+      = int a
+  + Field:        b Landroid/os/Handler;
+    Access flags: 0x0
+      = android.os.Handler b
+
+Methods (count = 6):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 28, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] bipush 100
+      [7] putfield #18
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.e I]
+      [10] aload_0 v0
+      [11] iconst_0
+      [12] putfield #14
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+      [15] aload_0 v0
+      [16] new #8
+        + Class [com/example/ProgressBarDemo/a]
+      [19] dup
+      [20] aload_0 v0
+      [21] invokespecial #25
+        + Methodref [com/example/ProgressBarDemo/a.<init> (Lcom/example/ProgressBarDemo/MyActivity;)V]
+      [24] putfield #15
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+      [27] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 53, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #21
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #24
+        + Methodref [com/example/ProgressBarDemo/MyActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] ldc #3
+        + Integer [2131034114]
+      [15] invokespecial #20
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [18] checkcast #5
+        + Class [android/widget/Button]
+      [21] putfield #16
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.c Landroid/widget/Button;]
+      [24] aload_0 v0
+      [25] aload_0 v0
+      [26] ldc #2
+        + Integer [2131034113]
+      [28] invokespecial #20
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [31] checkcast #6
+        + Class [android/widget/ProgressBar]
+      [34] putfield #17
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.d Landroid/widget/ProgressBar;]
+      [37] aload_0 v0
+      [38] getfield #16
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.c Landroid/widget/Button;]
+      [41] new #9
+        + Class [com/example/ProgressBarDemo/b]
+      [44] dup
+      [45] aload_0 v0
+      [46] invokespecial #26
+        + Methodref [com/example/ProgressBarDemo/b.<init> (Lcom/example/ProgressBarDemo/MyActivity;)V]
+      [49] invokevirtual #22
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [52] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()I
+    Access flags: 0x2
+      = private int a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 2, stack = 4):
+      [0] ldc2_w #12
+        + Long [200]
+      [3] invokestatic #28
+        + Methodref [java/lang/Thread.sleep (J)V]
+      [6] goto +8 (target=14)
+      [9] astore_1 v1
+      [10] aload_1 v1
+      [11] invokevirtual #27
+        + Methodref [java/lang/InterruptedException.printStackTrace ()V]
+      [14] aload_0 v0
+      [15] dup
+      [16] getfield #14
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+      [19] dup_x1
+      [20] iconst_1
+      [21] iadd
+      [22] putfield #14
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+      [25] ireturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 6: 9):
+      + Class [java/lang/InterruptedException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [9] Var: ..., Stack: [a:java/lang/InterruptedException]
+        - [14] Var: ..., Stack: (empty)
+  + Method:       a(Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;
+    Access flags: 0x1008
+      = static synthetic android.widget.ProgressBar a(com.example.ProgressBarDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #17
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.d Landroid/widget/ProgressBar;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/example/ProgressBarDemo/MyActivity;)I
+    Access flags: 0x1008
+      = static synthetic int b(com.example.ProgressBarDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #18
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.e I]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c(Lcom/example/ProgressBarDemo/MyActivity;)I
+    Access flags: 0x1008
+      = static synthetic int c(com.example.ProgressBarDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #23
+        + Methodref [com/example/ProgressBarDemo/MyActivity.a ()I]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/ProgressBarDemo/a
+  Superclass:    android/os/Handler
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.ProgressBarDemo.a extends android.os.Handler
+
+Interfaces (count = 0):
+
+Constant Pool (count = 51):
+  + String [数据已经加载完毕]
+  + Class [android/os/Handler]
+  + Class [android/os/Message]
+  + Class [android/widget/ProgressBar]
+  + Class [android/widget/Toast]
+  + Class [com/example/ProgressBarDemo/MyActivity]
+  + Class [com/example/ProgressBarDemo/a]
+  + Fieldref [android/os/Message.what I]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+  + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+  + Methodref [android/os/Handler.<init> ()V]
+  + Methodref [android/widget/ProgressBar.setProgress (I)V]
+  + Methodref [android/widget/ProgressBar.setVisibility (I)V]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [com/example/ProgressBarDemo/MyActivity.a (Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+  + NameAndType [a I]
+  + NameAndType [a Lcom/example/ProgressBarDemo/MyActivity;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [setProgress (I)V]
+  + NameAndType [setVisibility (I)V]
+  + NameAndType [show ()V]
+  + NameAndType [what I]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/os/Message;)V]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Lcom/example/ProgressBarDemo/MyActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/os/Handler]
+  + Utf8 [android/os/Message]
+  + Utf8 [android/widget/ProgressBar]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [com/example/ProgressBarDemo/MyActivity]
+  + Utf8 [com/example/ProgressBarDemo/a]
+  + Utf8 [handleMessage]
+  + Utf8 [makeText]
+  + Utf8 [setProgress]
+  + Utf8 [setVisibility]
+  + Utf8 [show]
+  + Utf8 [what]
+  + Utf8 [数据已经加载完毕]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/ProgressBarDemo/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.ProgressBarDemo.MyActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/ProgressBarDemo/MyActivity;)V
+    Access flags: 0x0
+      = a(com.example.ProgressBarDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #11
+        + Methodref [android/os/Handler.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       handleMessage(Landroid/os/Message;)V
+    Access flags: 0x1
+      = public void handleMessage(android.os.Message)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 83, locals = 2, stack = 3):
+      [0] aload_1 v1
+      [1] getfield #8
+        + Fieldref [android/os/Message.what I]
+      [4] ifne +17 (target=21)
+      [7] aload_0 v0
+      [8] getfield #10
+        + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [11] invokestatic #16
+        + Methodref [com/example/ProgressBarDemo/MyActivity.a (Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+      [14] iconst_0
+      [15] invokevirtual #13
+        + Methodref [android/widget/ProgressBar.setVisibility (I)V]
+      [18] goto +64 (target=82)
+      [21] aload_1 v1
+      [22] getfield #8
+        + Fieldref [android/os/Message.what I]
+      [25] iconst_1
+      [26] ificmpne +31 (target=57)
+      [29] aload_0 v0
+      [30] getfield #10
+        + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [33] invokestatic #16
+        + Methodref [com/example/ProgressBarDemo/MyActivity.a (Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+      [36] bipush 8
+      [38] invokevirtual #13
+        + Methodref [android/widget/ProgressBar.setVisibility (I)V]
+      [41] aload_0 v0
+      [42] getfield #10
+        + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [45] ldc #1
+        + String [数据已经加载完毕]
+      [47] iconst_1
+      [48] invokestatic #14
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [51] invokevirtual #15
+        + Methodref [android/widget/Toast.show ()V]
+      [54] goto +28 (target=82)
+      [57] aload_1 v1
+      [58] getfield #8
+        + Fieldref [android/os/Message.what I]
+      [61] iconst_2
+      [62] ificmpne +20 (target=82)
+      [65] aload_0 v0
+      [66] getfield #10
+        + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [69] invokestatic #16
+        + Methodref [com/example/ProgressBarDemo/MyActivity.a (Lcom/example/ProgressBarDemo/MyActivity;)Landroid/widget/ProgressBar;]
+      [72] aload_0 v0
+      [73] getfield #10
+        + Fieldref [com/example/ProgressBarDemo/a.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [76] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+      [79] invokevirtual #12
+        + Methodref [android/widget/ProgressBar.setProgress (I)V]
+      [82] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [21] Var: ..., Stack: (empty)
+        - [57] Var: ..., Stack: (empty)
+        - [82] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/ProgressBarDemo/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.ProgressBarDemo.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 39):
+  + Class [android/os/Handler]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/example/ProgressBarDemo/MyActivity]
+  + Class [com/example/ProgressBarDemo/b]
+  + Class [com/example/ProgressBarDemo/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+  + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+  + Methodref [android/os/Handler.sendEmptyMessage (I)Z]
+  + Methodref [com/example/ProgressBarDemo/c.<init> (Lcom/example/ProgressBarDemo/b;)V]
+  + Methodref [com/example/ProgressBarDemo/c.start ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/example/ProgressBarDemo/b;)V]
+  + NameAndType [a Lcom/example/ProgressBarDemo/MyActivity;]
+  + NameAndType [b Landroid/os/Handler;]
+  + NameAndType [sendEmptyMessage (I)Z]
+  + NameAndType [start ()V]
+  + Utf8 [()V]
+  + Utf8 [(I)Z]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)V]
+  + Utf8 [(Lcom/example/ProgressBarDemo/b;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/os/Handler;]
+  + Utf8 [Lcom/example/ProgressBarDemo/MyActivity;]
+  + Utf8 [a]
+  + Utf8 [android/os/Handler]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [b]
+  + Utf8 [com/example/ProgressBarDemo/MyActivity]
+  + Utf8 [com/example/ProgressBarDemo/b]
+  + Utf8 [com/example/ProgressBarDemo/c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [sendEmptyMessage]
+  + Utf8 [start]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/ProgressBarDemo/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.ProgressBarDemo.MyActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/ProgressBarDemo/MyActivity;)V
+    Access flags: 0x0
+      = b(com.example.ProgressBarDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #12
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 24, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [4] getfield #7
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+      [7] iconst_0
+      [8] invokevirtual #9
+        + Methodref [android/os/Handler.sendEmptyMessage (I)Z]
+      [11] pop
+      [12] new #5
+        + Class [com/example/ProgressBarDemo/c]
+      [15] dup
+      [16] aload_0 v0
+      [17] invokespecial #10
+        + Methodref [com/example/ProgressBarDemo/c.<init> (Lcom/example/ProgressBarDemo/b;)V]
+      [20] invokevirtual #11
+        + Methodref [com/example/ProgressBarDemo/c.start ()V]
+      [23] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/ProgressBarDemo/c
+  Superclass:    java/lang/Thread
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.ProgressBarDemo.c extends java.lang.Thread
+
+Interfaces (count = 0):
+
+Constant Pool (count = 43):
+  + Class [android/os/Handler]
+  + Class [com/example/ProgressBarDemo/MyActivity]
+  + Class [com/example/ProgressBarDemo/b]
+  + Class [com/example/ProgressBarDemo/c]
+  + Class [java/lang/Thread]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+  + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+  + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+  + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+  + Methodref [android/os/Handler.sendEmptyMessage (I)Z]
+  + Methodref [com/example/ProgressBarDemo/MyActivity.b (Lcom/example/ProgressBarDemo/MyActivity;)I]
+  + Methodref [com/example/ProgressBarDemo/MyActivity.c (Lcom/example/ProgressBarDemo/MyActivity;)I]
+  + Methodref [java/lang/Thread.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a I]
+  + NameAndType [a Lcom/example/ProgressBarDemo/MyActivity;]
+  + NameAndType [a Lcom/example/ProgressBarDemo/b;]
+  + NameAndType [b (Lcom/example/ProgressBarDemo/MyActivity;)I]
+  + NameAndType [b Landroid/os/Handler;]
+  + NameAndType [c (Lcom/example/ProgressBarDemo/MyActivity;)I]
+  + NameAndType [sendEmptyMessage (I)Z]
+  + Utf8 [()V]
+  + Utf8 [(I)Z]
+  + Utf8 [(Lcom/example/ProgressBarDemo/MyActivity;)I]
+  + Utf8 [(Lcom/example/ProgressBarDemo/b;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/os/Handler;]
+  + Utf8 [Lcom/example/ProgressBarDemo/MyActivity;]
+  + Utf8 [Lcom/example/ProgressBarDemo/b;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/os/Handler]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/ProgressBarDemo/MyActivity]
+  + Utf8 [com/example/ProgressBarDemo/b]
+  + Utf8 [com/example/ProgressBarDemo/c]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [run]
+  + Utf8 [sendEmptyMessage]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/ProgressBarDemo/b;
+    Access flags: 0x1010
+      = final synthetic com.example.ProgressBarDemo.b a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/ProgressBarDemo/b;)V
+    Access flags: 0x0
+      = c(com.example.ProgressBarDemo.b)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [5] aload_0 v0
+      [6] invokespecial #13
+        + Methodref [java/lang/Thread.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 79, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [4] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [7] getfield #6
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+      [10] aload_0 v0
+      [11] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [14] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [17] invokestatic #11
+        + Methodref [com/example/ProgressBarDemo/MyActivity.b (Lcom/example/ProgressBarDemo/MyActivity;)I]
+      [20] ificmpge +32 (target=52)
+      [23] aload_0 v0
+      [24] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [27] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [30] invokestatic #12
+        + Methodref [com/example/ProgressBarDemo/MyActivity.c (Lcom/example/ProgressBarDemo/MyActivity;)I]
+      [33] pop
+      [34] aload_0 v0
+      [35] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [38] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [41] getfield #7
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+      [44] iconst_2
+      [45] invokevirtual #10
+        + Methodref [android/os/Handler.sendEmptyMessage (I)Z]
+      [48] pop
+      [49] goto -49 (target=0)
+      [52] aload_0 v0
+      [53] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [56] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [59] getfield #7
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.b Landroid/os/Handler;]
+      [62] iconst_1
+      [63] invokevirtual #10
+        + Methodref [android/os/Handler.sendEmptyMessage (I)Z]
+      [66] pop
+      [67] aload_0 v0
+      [68] getfield #9
+        + Fieldref [com/example/ProgressBarDemo/c.a Lcom/example/ProgressBarDemo/b;]
+      [71] getfield #8
+        + Fieldref [com/example/ProgressBarDemo/b.a Lcom/example/ProgressBarDemo/MyActivity;]
+      [74] iconst_0
+      [75] putfield #6
+        + Fieldref [com/example/ProgressBarDemo/MyActivity.a I]
+      [78] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [0] Var: ..., Stack: (empty)
+        - [52] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">编辑框组件</string>
+    <string name="et1">你好安卓！</string>
+    <string name="et2">1234</string>
+    <string name="et3">用户名</string>
+    <string name="et4">密码</string>
+</resources>

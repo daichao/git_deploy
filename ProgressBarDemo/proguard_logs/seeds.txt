@@ -1,0 +1,9 @@
+com.example.ProgressBarDemo.MyActivity
+com.example.ProgressBarDemo.MyActivity: MyActivity()
+com.example.ProgressBarDemo.R$drawable: int ic_launcher
+com.example.ProgressBarDemo.R$id: int btn1
+com.example.ProgressBarDemo.R$id: int pb1
+com.example.ProgressBarDemo.R$id: int pb2
+com.example.ProgressBarDemo.R$layout: int main
+com.example.ProgressBarDemo.R$string: int app_name
+com.example.ProgressBarDemo.R$string: int btn1

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+        >
+    <AdapterViewFlipper
+            android:id="@+id/avf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:flipInterval="2000"
+            android:layout_alignParentTop="true">
+
+    </AdapterViewFlipper>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/prev"
+            android:onClick="prev"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/next"
+            android:onClick="next"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/auto"
+            android:onClick="auto"/>
+</RelativeLayout>
+

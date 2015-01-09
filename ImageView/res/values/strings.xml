@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageView</string>
+    <string name="smile">微笑</string>
+    <string name="serious">严肃</string>
+</resources>

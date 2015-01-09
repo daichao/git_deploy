@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageButton</string>
+    <string name="btn1">第一个按钮</string>
+    <string name="btn2">第二个按钮</string>
+    <string name="btn3">第三个按钮</string>
+    <string name="btn4">第四个按钮</string>
+</resources>

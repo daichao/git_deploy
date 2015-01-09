@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageSwitcher</string>
+    <string name="prev">上一张</string>
+    <string name="next">下一张</string>
+    <string name="pic1">范冰冰</string>
+    <string name="pic2">柳岩</string>
+    <string name="pic3">张柏芝</string>
+    <string name="pic4">张靓颖</string>
+</resources>
