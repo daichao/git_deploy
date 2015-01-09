@@ -1,0 +1,7 @@
+com.example.SlidingDrawerDemo.BuildConfig
+com.example.SlidingDrawerDemo.R
+com.example.SlidingDrawerDemo.R$attr
+com.example.SlidingDrawerDemo.R$drawable
+com.example.SlidingDrawerDemo.R$id
+com.example.SlidingDrawerDemo.R$layout
+com.example.SlidingDrawerDemo.R$string

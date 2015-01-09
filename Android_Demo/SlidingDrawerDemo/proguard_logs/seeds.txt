@@ -1,0 +1,11 @@
+com.example.SlidingDrawerDemo.MyActivity
+com.example.SlidingDrawerDemo.MyActivity: MyActivity()
+com.example.SlidingDrawerDemo.R$drawable: int can
+com.example.SlidingDrawerDemo.R$drawable: int ic_launcher
+com.example.SlidingDrawerDemo.R$drawable: int left
+com.example.SlidingDrawerDemo.R$drawable: int right
+com.example.SlidingDrawerDemo.R$id: int content
+com.example.SlidingDrawerDemo.R$id: int handle
+com.example.SlidingDrawerDemo.R$id: int slidingDrawer
+com.example.SlidingDrawerDemo.R$layout: int main
+com.example.SlidingDrawerDemo.R$string: int app_name

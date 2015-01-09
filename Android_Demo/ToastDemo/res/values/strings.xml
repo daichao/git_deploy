@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToastDemo</string>
+    <string name="btn1">Toast长时间</string>
+    <string name="btn2">Toast短时间</string>
+    <string name="btn3">Toast自定义</string>
+</resources>

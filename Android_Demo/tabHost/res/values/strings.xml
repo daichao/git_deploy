@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tabHost</string>
+    <string name="tab1">第一个标签</string>
+    <string name="tab2">第二个标签</string>
+    <string name="tab3">第三个标签</string>
+</resources>

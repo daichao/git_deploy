@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScrollViewDemo</string>
+    <string name="a">第一张图片</string>
+    <string name="b">第二张图片</string>
+    <string name="c">第三张图片</string>
+</resources>

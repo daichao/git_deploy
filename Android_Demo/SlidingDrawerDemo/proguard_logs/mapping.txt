@@ -1,0 +1,15 @@
+com.example.SlidingDrawerDemo.MyActivity -> com.example.SlidingDrawerDemo.MyActivity:
+    android.widget.SlidingDrawer slidingDrawer -> a
+    android.widget.ImageView handle -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.ImageView access$000(com.example.SlidingDrawerDemo.MyActivity) -> a
+com.example.SlidingDrawerDemo.MyActivity$1 -> com.example.SlidingDrawerDemo.a:
+    com.example.SlidingDrawerDemo.MyActivity this$0 -> a
+    void onDrawerOpened() -> onDrawerOpened
+com.example.SlidingDrawerDemo.MyActivity$2 -> com.example.SlidingDrawerDemo.b:
+    com.example.SlidingDrawerDemo.MyActivity this$0 -> a
+    void onDrawerClosed() -> onDrawerClosed
+com.example.SlidingDrawerDemo.MyActivity$3 -> com.example.SlidingDrawerDemo.c:
+    com.example.SlidingDrawerDemo.MyActivity this$0 -> a
+    void onScrollStarted() -> onScrollStarted
+    void onScrollEnded() -> onScrollEnded

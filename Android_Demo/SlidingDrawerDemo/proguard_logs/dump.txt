@@ -1,0 +1,492 @@
+_____________________________________________________________________
++ Program class: com/example/SlidingDrawerDemo/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.SlidingDrawerDemo.MyActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 75):
+  + Integer [2130837504]
+  + Integer [2130903040]
+  + Integer [2131034112]
+  + Integer [2131034113]
+  + Integer [2131034114]
+  + Class [android/app/Activity]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/LinearLayout]
+  + Class [android/widget/SlidingDrawer]
+  + Class [com/example/SlidingDrawerDemo/MyActivity]
+  + Class [com/example/SlidingDrawerDemo/a]
+  + Class [com/example/SlidingDrawerDemo/b]
+  + Class [com/example/SlidingDrawerDemo/c]
+  + Fieldref [com/example/SlidingDrawerDemo/MyActivity.a Landroid/widget/SlidingDrawer;]
+  + Fieldref [com/example/SlidingDrawerDemo/MyActivity.b Landroid/widget/ImageView;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/ImageView.<init> (Landroid/content/Context;)V]
+  + Methodref [android/widget/ImageView.setImageResource (I)V]
+  + Methodref [android/widget/LinearLayout.addView (Landroid/view/View;)V]
+  + Methodref [android/widget/SlidingDrawer.setOnDrawerCloseListener (Landroid/widget/SlidingDrawer$OnDrawerCloseListener;)V]
+  + Methodref [android/widget/SlidingDrawer.setOnDrawerOpenListener (Landroid/widget/SlidingDrawer$OnDrawerOpenListener;)V]
+  + Methodref [android/widget/SlidingDrawer.setOnDrawerScrollListener (Landroid/widget/SlidingDrawer$OnDrawerScrollListener;)V]
+  + Methodref [com/example/SlidingDrawerDemo/MyActivity.setContentView (I)V]
+  + Methodref [com/example/SlidingDrawerDemo/a.<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + Methodref [com/example/SlidingDrawerDemo/b.<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + Methodref [com/example/SlidingDrawerDemo/c.<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + NameAndType [a Landroid/widget/SlidingDrawer;]
+  + NameAndType [addView (Landroid/view/View;)V]
+  + NameAndType [b Landroid/widget/ImageView;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setImageResource (I)V]
+  + NameAndType [setOnDrawerCloseListener (Landroid/widget/SlidingDrawer$OnDrawerCloseListener;)V]
+  + NameAndType [setOnDrawerOpenListener (Landroid/widget/SlidingDrawer$OnDrawerOpenListener;)V]
+  + NameAndType [setOnDrawerScrollListener (Landroid/widget/SlidingDrawer$OnDrawerScrollListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/widget/SlidingDrawer$OnDrawerCloseListener;)V]
+  + Utf8 [(Landroid/widget/SlidingDrawer$OnDrawerOpenListener;)V]
+  + Utf8 [(Landroid/widget/SlidingDrawer$OnDrawerScrollListener;)V]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/ImageView;]
+  + Utf8 [Landroid/widget/SlidingDrawer;]
+  + Utf8 [a]
+  + Utf8 [addView]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [android/widget/SlidingDrawer]
+  + Utf8 [b]
+  + Utf8 [com/example/SlidingDrawerDemo/MyActivity]
+  + Utf8 [com/example/SlidingDrawerDemo/a]
+  + Utf8 [com/example/SlidingDrawerDemo/b]
+  + Utf8 [com/example/SlidingDrawerDemo/c]
+  + Utf8 [findViewById]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setImageResource]
+  + Utf8 [setOnDrawerCloseListener]
+  + Utf8 [setOnDrawerOpenListener]
+  + Utf8 [setOnDrawerScrollListener]
+
+Fields (count = 2):
+  + Field:        a Landroid/widget/SlidingDrawer;
+    Access flags: 0x2
+      = private android.widget.SlidingDrawer a
+  + Field:        b Landroid/widget/ImageView;
+    Access flags: 0x2
+      = private android.widget.ImageView b
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #16
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] aconst_null
+      [6] putfield #14
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.a Landroid/widget/SlidingDrawer;]
+      [9] aload_0 v0
+      [10] aconst_null
+      [11] putfield #15
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.b Landroid/widget/ImageView;]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 113, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #18
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #2
+        + Integer [2130903040]
+      [8] invokevirtual #25
+        + Methodref [com/example/SlidingDrawerDemo/MyActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #5
+        + Integer [2131034114]
+      [14] invokespecial #17
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [17] checkcast #8
+        + Class [android/widget/LinearLayout]
+      [20] astore_2 v2
+      [21] new #7
+        + Class [android/widget/ImageView]
+      [24] dup
+      [25] aload_0 v0
+      [26] invokespecial #19
+        + Methodref [android/widget/ImageView.<init> (Landroid/content/Context;)V]
+      [29] astore_3 v3
+      [30] aload_3 v3
+      [31] ldc #1
+        + Integer [2130837504]
+      [33] invokevirtual #20
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [36] aload_2 v2
+      [37] aload_3 v3
+      [38] invokevirtual #21
+        + Methodref [android/widget/LinearLayout.addView (Landroid/view/View;)V]
+      [41] aload_0 v0
+      [42] aload_0 v0
+      [43] ldc #3
+        + Integer [2131034112]
+      [45] invokespecial #17
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [48] checkcast #9
+        + Class [android/widget/SlidingDrawer]
+      [51] putfield #14
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.a Landroid/widget/SlidingDrawer;]
+      [54] aload_0 v0
+      [55] aload_0 v0
+      [56] ldc #4
+        + Integer [2131034113]
+      [58] invokespecial #17
+        + Methodref [android/app/Activity.findViewById (I)Landroid/view/View;]
+      [61] checkcast #7
+        + Class [android/widget/ImageView]
+      [64] putfield #15
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.b Landroid/widget/ImageView;]
+      [67] aload_0 v0
+      [68] getfield #14
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.a Landroid/widget/SlidingDrawer;]
+      [71] new #11
+        + Class [com/example/SlidingDrawerDemo/a]
+      [74] dup
+      [75] aload_0 v0
+      [76] invokespecial #26
+        + Methodref [com/example/SlidingDrawerDemo/a.<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+      [79] invokevirtual #23
+        + Methodref [android/widget/SlidingDrawer.setOnDrawerOpenListener (Landroid/widget/SlidingDrawer$OnDrawerOpenListener;)V]
+      [82] aload_0 v0
+      [83] getfield #14
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.a Landroid/widget/SlidingDrawer;]
+      [86] new #12
+        + Class [com/example/SlidingDrawerDemo/b]
+      [89] dup
+      [90] aload_0 v0
+      [91] invokespecial #27
+        + Methodref [com/example/SlidingDrawerDemo/b.<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+      [94] invokevirtual #22
+        + Methodref [android/widget/SlidingDrawer.setOnDrawerCloseListener (Landroid/widget/SlidingDrawer$OnDrawerCloseListener;)V]
+      [97] aload_0 v0
+      [98] getfield #14
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.a Landroid/widget/SlidingDrawer;]
+      [101] new #13
+        + Class [com/example/SlidingDrawerDemo/c]
+      [104] dup
+      [105] aload_0 v0
+      [106] invokespecial #28
+        + Methodref [com/example/SlidingDrawerDemo/c.<init> (Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+      [109] invokevirtual #24
+        + Methodref [android/widget/SlidingDrawer.setOnDrawerScrollListener (Landroid/widget/SlidingDrawer$OnDrawerScrollListener;)V]
+      [112] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;
+    Access flags: 0x1008
+      = static synthetic android.widget.ImageView a(com.example.SlidingDrawerDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #15
+        + Fieldref [com/example/SlidingDrawerDemo/MyActivity.b Landroid/widget/ImageView;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/SlidingDrawerDemo/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.SlidingDrawerDemo.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/SlidingDrawer$OnDrawerOpenListener]
+
+Constant Pool (count = 30):
+  + Integer [2130837507]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/SlidingDrawer$OnDrawerOpenListener]
+  + Class [com/example/SlidingDrawerDemo/MyActivity]
+  + Class [com/example/SlidingDrawerDemo/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/SlidingDrawerDemo/a.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + Methodref [android/widget/ImageView.setImageResource (I)V]
+  + Methodref [com/example/SlidingDrawerDemo/MyActivity.a (Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + NameAndType [a Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + NameAndType [setImageResource (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + Utf8 [a]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/SlidingDrawer$OnDrawerOpenListener]
+  + Utf8 [com/example/SlidingDrawerDemo/MyActivity]
+  + Utf8 [com/example/SlidingDrawerDemo/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onDrawerOpened]
+  + Utf8 [setImageResource]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/SlidingDrawerDemo/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.SlidingDrawerDemo.MyActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/SlidingDrawerDemo/MyActivity;)V
+    Access flags: 0x0
+      = a(com.example.SlidingDrawerDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/a.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDrawerOpened()V
+    Access flags: 0x1
+      = public void onDrawerOpened()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/a.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [4] invokestatic #9
+        + Methodref [com/example/SlidingDrawerDemo/MyActivity.a (Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+      [7] ldc #1
+        + Integer [2130837507]
+      [9] invokevirtual #8
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/SlidingDrawerDemo/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.SlidingDrawerDemo.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/SlidingDrawer$OnDrawerCloseListener]
+
+Constant Pool (count = 30):
+  + Integer [2130837506]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/SlidingDrawer$OnDrawerCloseListener]
+  + Class [com/example/SlidingDrawerDemo/MyActivity]
+  + Class [com/example/SlidingDrawerDemo/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/SlidingDrawerDemo/b.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + Methodref [android/widget/ImageView.setImageResource (I)V]
+  + Methodref [com/example/SlidingDrawerDemo/MyActivity.a (Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + NameAndType [a Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + NameAndType [setImageResource (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + Utf8 [a]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/SlidingDrawer$OnDrawerCloseListener]
+  + Utf8 [com/example/SlidingDrawerDemo/MyActivity]
+  + Utf8 [com/example/SlidingDrawerDemo/b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onDrawerClosed]
+  + Utf8 [setImageResource]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/SlidingDrawerDemo/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.SlidingDrawerDemo.MyActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/SlidingDrawerDemo/MyActivity;)V
+    Access flags: 0x0
+      = b(com.example.SlidingDrawerDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/b.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDrawerClosed()V
+    Access flags: 0x1
+      = public void onDrawerClosed()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/b.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [4] invokestatic #9
+        + Methodref [com/example/SlidingDrawerDemo/MyActivity.a (Lcom/example/SlidingDrawerDemo/MyActivity;)Landroid/widget/ImageView;]
+      [7] ldc #1
+        + Integer [2130837506]
+      [9] invokevirtual #8
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/SlidingDrawerDemo/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.SlidingDrawerDemo.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/SlidingDrawer$OnDrawerScrollListener]
+
+Constant Pool (count = 32):
+  + String [开始拖动]
+  + String [结束拖动]
+  + Class [android/widget/SlidingDrawer$OnDrawerScrollListener]
+  + Class [android/widget/Toast]
+  + Class [com/example/SlidingDrawerDemo/c]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/SlidingDrawerDemo/c.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [show ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Lcom/example/SlidingDrawerDemo/MyActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/example/SlidingDrawerDemo/MyActivity;]
+  + Utf8 [a]
+  + Utf8 [android/widget/SlidingDrawer$OnDrawerScrollListener]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [com/example/SlidingDrawerDemo/c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [makeText]
+  + Utf8 [onScrollEnded]
+  + Utf8 [onScrollStarted]
+  + Utf8 [show]
+  + Utf8 [开始拖动]
+  + Utf8 [结束拖动]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/SlidingDrawerDemo/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.SlidingDrawerDemo.MyActivity a
+
+Methods (count = 3):
+  - Method:       <init>(Lcom/example/SlidingDrawerDemo/MyActivity;)V
+    Access flags: 0x0
+      = c(com.example.SlidingDrawerDemo.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/c.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onScrollStarted()V
+    Access flags: 0x1
+      = public void onScrollStarted()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/c.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [4] ldc #1
+        + String [开始拖动]
+      [6] iconst_0
+      [7] invokestatic #8
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [10] invokevirtual #9
+        + Methodref [android/widget/Toast.show ()V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onScrollEnded()V
+    Access flags: 0x1
+      = public void onScrollEnded()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [com/example/SlidingDrawerDemo/c.a Lcom/example/SlidingDrawerDemo/MyActivity;]
+      [4] ldc #2
+        + String [结束拖动]
+      [6] iconst_0
+      [7] invokestatic #8
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [10] invokevirtual #9
+        + Methodref [android/widget/Toast.show ()V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
