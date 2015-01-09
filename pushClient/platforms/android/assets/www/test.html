@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>PhoneGap</title>
+<script type="text/javascript">  
+	function show(message)
+    {
+    	
+    	localStorage.setItem("msg",message);
+        if (message!=null){
+        	alert(message);
+        }
+    }
+    function getMessage(){
+    	var msg=localStorage.getItem("msg");
+    	return msg;
+    }
+</script>
+
+</head>
+<body>
+<h1>Hello World</h1>
+<input type="button" onClick="window.WebExtension.show('message from webview!')" value="Send To Android">
+<input type="button" onClick="window.WebExtension.attention(getMessage())" value="关注">
+</body>
+</html>
